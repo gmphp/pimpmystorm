@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="<?php echo $path = '/assets/css/main.css' ?>?<?php echo filemtime(__DIR__.$path) ?>">
 	</head>
 	<body> 
-		<img src="phpstorm.png" class="logo" alt="PhpStorm"> 
+		<img src="/assets/images/phpstorm.png" class="logo" alt="PhpStorm"> 
 		<h1>How To Pimp PhpStorm <span class="by">By Gregorio Ramirez</span></h1> 
 		<h2><span id="tweaks"></span> tweaks you must do before using the <a href="http://www.jetbrains.com/phpstorm/">PhpStorm</a> IDE from <a href="http://www.jetbrains.com">JetBrains</a>.</h2> 
 		<p>The following list is a series of tweaks that I take the time to do everytime I install the PhpStorm software on a new computer. Most of these tweaks enhance my productivity, and all around just makes my coding session much more pleasant. I'm always on the lookout for more tweaks, so feel free to drop a comment or send me an email with a new finding.</p> 
