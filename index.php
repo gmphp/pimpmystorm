@@ -32,7 +32,7 @@
 		<div class="tweak"> 
 			<h3>2. Turn <span class="good">on</span> "Show virtual space at file bottom"</h3> 
 			<p class="path"><strong>Settings:</strong> <em>IDE Settings</em> > <em>Editor</em> > <em>Virtual Space</em> > Show virtual space at file bottom</p> 
-			<p>This setting allows you to scroll down beyond the end of a file, effectively allowing you to place the end of the file in the middle of the screen, as oppose to staring down at the bottom of the screen to see the last line of code.</p> 
+			<p>This setting allows you to scroll down beyond the end of the file, effectively allowing you to place the end of the file in the middle of the screen, as oppose to staring down at the bottom of the screen to see the last line of code.</p> 
 		</div> 
 		
 		<p>&copy; 2011 Gregorio Ramirez</p>
