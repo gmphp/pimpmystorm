@@ -1,4 +1,5 @@
-if (document.getElementsByClassName) {
-	var tweaks = document.getElementsByClassName('tweak');
-	document.getElementById('tweaks').innerHTML = tweaks.length;
-}
+$(function() {
+	$('#tweaks').text($('.tweak').length);
+	$("a").each(function(a,d){if(d.host!==window.location.host)d.target="_blank"});
+});
+
