@@ -6,7 +6,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>How To Pimp the PhpStorm IDE from JetBrains</title>
-		<meta name="description" content="A list of setting tweaks that you must do every time you install PhpStorm on a new computer.">
+		<meta name="description" content="A list of important tweaks you must do in your PhpStorm settings, if you which to extract all of the hidden juice contained in this sweet editor.">
 		<meta name="author" content="Gregorio Ramirez">
 		<link rel="stylesheet" href="<?php echo $path = '/assets/css/main.css' ?>?<?php echo filemtime(__DIR__.$path) ?>">
 	</head>
