@@ -17,7 +17,7 @@
 			<span class="by">By Gregorio Ramirez</span>
 		</h1>
 		<h2><span id="tweaks"></span> tweaks you must do before using the <a href="http://www.jetbrains.com/phpstorm/">PhpStorm</a> IDE from <a href="http://www.jetbrains.com">JetBrains</a>.</h2> 
-		<p>The following list is a series of tweaks that I take the time to do everytime I install the PhpStorm software on a new computer. Most of these tweaks enhance my productivity, and all around just makes my coding session much more pleasant. I'm always on the lookout for more tweaks, so feel free to drop a comment or send me an email with a new finding.</p> 
+		<p>The following list is a series of tweaks that I take the time to do everytime I install the PhpStorm software on a new computer. Most of these tweaks enhance my productivity, and all around just makes my coding session much more pleasant. I'm always on the lookout for more tweaks, so feel free to drop a comment or <a href="https://github.com/goyote/pimpmystorm.com/issues">send me an email</a> with a new finding.</p> 
 
 		<div class="tweak"> 
 			<h3>1. Turn <span class="bad">off</span> "Allow placement of caret after end of line"</h3> 
@@ -35,6 +35,7 @@
 			<p>This setting allows you to scroll down beyond the end of a file, effectively allowing you to place the end of the file in the middle of the screen, as oppose to staring down at the bottom of the screen to see the last line of code.</p> 
 		</div> 
 		
+		<p>&copy; 2011 Gregorio Ramirez</p>
 		<p>
 			<a href="http://feeds.feedburner.com/pimpmystorm"><img src="http://feeds.feedburner.com/~fc/pimpmystorm?bg=FF9900&amp;fg=0000000&amp;anim=0" height="26" width="88" alt="" /></a>
 			
