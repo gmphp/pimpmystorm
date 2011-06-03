@@ -1,0 +1,18 @@
+body { font: 14px/18px sans-serif; color: #333; margin: 0 20px; }
+a { color: #A4672A; }
+img { border: 0; }
+h1, h2 { letter-spacing: -2px; }
+
+h1 { word-spacing: -10px; font-size: 44px; line-height: 46px; font-family: Consolas, monospace; }
+    h1 .by { font: 13px Georgia, serif; letter-spacing: 0; word-spacing: -2px; }
+    
+h2 { font-weight: normal; font-size: 34px; line-height: 36px; }
+h3 { font-size: 22px; font-weight: normal; letter-spacing: -1px; }
+.logo { float: right; }
+
+.tweak { padding: 5px 20px; background: #eee; border-top: 6px solid #ccc; border-bottom: 1px solid #ccc; margin: 0 0 10px; }
+    .tweak .path { font-family: monospace; background: #987575; color: #fff; border: 1px dashed #6D6D6D; padding: 0 20px; } 
+    .tweak span.bad { color: red; }
+    .tweak span.good { color: green; }
+    .tweak img.bad { border: 1px solid red; }
+    .tweak img.good { border: 1px solid green; }
