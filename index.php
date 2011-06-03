@@ -15,8 +15,7 @@
 		<h1>
 			How To Pimp PhpStorm 
 			<span class="by">By Gregorio Ramirez</span>
-			<a href="http://feeds.feedburner.com/pimpmystorm"><img src="http://feeds.feedburner.com/~fc/pimpmystorm?bg=FF9900&amp;fg=0000000&amp;anim=0" height="26" width="88" alt="" /></a>
-		</h1> 
+		</h1>
 		<h2><span id="tweaks"></span> tweaks you must do before using the <a href="http://www.jetbrains.com/phpstorm/">PhpStorm</a> IDE from <a href="http://www.jetbrains.com">JetBrains</a>.</h2> 
 		<p>The following list is a series of tweaks that I take the time to do everytime I install the PhpStorm software on a new computer. Most of these tweaks enhance my productivity, and all around just makes my coding session much more pleasant. I'm always on the lookout for more tweaks, so feel free to drop a comment or send me an email with a new finding.</p> 
 
@@ -35,7 +34,25 @@
 			<p class="path"><strong>Settings:</strong> <em>IDE Settings</em> > <em>Editor</em> > <em>Virtual Space</em> > Show virtual space at file bottom</p> 
 			<p>This setting allows you to scroll down beyond the end of a file, effectively allowing you to place the end of the file in the middle of the screen, as oppose to staring down at the bottom of the screen to see the last line of code.</p> 
 		</div> 
-
+		
+		<p>
+			<a href="http://feeds.feedburner.com/pimpmystorm"><img src="http://feeds.feedburner.com/~fc/pimpmystorm?bg=FF9900&amp;fg=0000000&amp;anim=0" height="26" width="88" alt="" /></a>
+			
+			&nbsp;
+			
+			<script type="text/javascript">
+			var sc_project=6934240; 
+			var sc_invisible=0; 
+			var sc_security="701d0f57"; 
+			</script>
+			<script type="text/javascript"
+			src="http://www.statcounter.com/counter/counter.js"></script>
+			<noscript><div class="statcounter"><a title="tumblr hit
+			counter" href="http://statcounter.com/tumblr/"
+			target="_blank"><img class="statcounter"
+			src="http://c.statcounter.com/6934240/0/701d0f57/0/"
+			alt="tumblr hit counter"></a></div></noscript>
+		</p>
 		<p><a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p>
 	
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
