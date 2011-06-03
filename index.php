@@ -14,7 +14,7 @@
 		<img src="/assets/images/phpstorm.png" class="logo" alt="PhpStorm">
 		<h1>
 			How To Pimp PhpStorm 
-			<span class="by">By Gregorio Ramirez</span> &nbsp;
+			<span class="by">By Gregorio Ramirez</span>
 			<a href="http://feeds.feedburner.com/pimpmystorm"><img src="http://feeds.feedburner.com/~fc/pimpmystorm?bg=FF9900&amp;fg=0000000&amp;anim=0" height="26" width="88" alt="" /></a>
 		</h1> 
 		<h2><span id="tweaks"></span> tweaks you must do before using the <a href="http://www.jetbrains.com/phpstorm/">PhpStorm</a> IDE from <a href="http://www.jetbrains.com">JetBrains</a>.</h2> 
@@ -39,6 +39,16 @@
 		<p><a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.</p>
 	
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
-		<script src="<?php echo $path = '/assets/js/main.js' ?>?<?php echo filemtime(__DIR__.$path) ?>"></script> 
+		<script src="<?php echo $path = '/assets/js/main.js' ?>?<?php echo filemtime(__DIR__.$path) ?>"></script>
+		<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-23767607-1']);
+		_gaq.push(['_trackPageview']);
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		</script>
 	</body> 
 </html>
