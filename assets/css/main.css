@@ -11,8 +11,10 @@ h3 { font-size: 22px; font-weight: normal; letter-spacing: -1px; }
 .logo { float: right; }
 
 .tweak { padding: 5px 20px; background: #eee; border-top: 6px solid #ccc; border-bottom: 1px solid #ccc; margin: 0 0 10px; }
-    .tweak .path { font-family: monospace; background: #987575; color: #fff; border: 1px dashed #6D6D6D; padding: 14px 20px; } 
+    .tweak .path { font-family: monospace; background: #987575; color: #fff; border: 1px dashed #6D6D6D; padding: 14px 20px; }
     .tweak span.bad { color: red; }
     .tweak span.good { color: green; }
     .tweak img.bad { border: 1px solid red; }
     .tweak img.good { border: 1px solid green; }
+
+.caption { font-style: italic; font-size: 12px; }
