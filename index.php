@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]>    <html class="no-js ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if IE 7 ]>	   <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>	   <html class="no-js ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 	<head>
 		<meta charset="utf-8">
@@ -60,27 +60,33 @@
 			<p><img src="/assets/images/look_and_feel_after.png" class="good" alt=""></p>
 		</div>
 
-        <div class="tweak">
-            <h3>5. Turn <span class="good">on</span> "Show line numbers"</h3>
-            <p class="path"><strong>Settings:</strong> <em>IDE Settings</em> > <em>Editor</em> > <em>Appearance</em> > Show line numbers</p>
-            <p>The UI looks leaner without the line numbers, but the line numbers are needed for development when using tools like Firebug or the stack trace.</p>
-            <h4>Before:</h4>
-            <p><img src="/assets/images/show_line_numbers_before.png" class="bad" alt=""></p>
-            <h4>After:</h4>
-            <p><img src="/assets/images/show_line_numbers_after.png" class="good" alt=""></p>
-        </div>
+		<div class="tweak">
+			<h3>5. Turn <span class="good">on</span> "Show line numbers"</h3>
+			<p class="path"><strong>Settings:</strong> <em>IDE Settings</em> > <em>Editor</em> > <em>Appearance</em> > Show line numbers</p>
+			<p>The UI looks leaner without the line numbers, but the line numbers are needed for development when using tools like Firebug or the stack trace.</p>
+			<h4>Before:</h4>
+			<p><img src="/assets/images/show_line_numbers_before.png" class="bad" alt=""></p>
+			<h4>After:</h4>
+			<p><img src="/assets/images/show_line_numbers_after.png" class="good" alt=""></p>
+		</div>
 
-        <div class="tweak">
-            <h3>6. Change the "Selection background" and "Selection foreground"</h3>
-            <p class="path"><strong>Settings:</strong> <em>IDE Settings</em> > <em>Editor</em> > <em>Colors &amp; Fonts</em> > <em>General</em> > <em>Selection foreground</em> > <strong>Uncheck</strong> Foreground</p>
-            <p class="path"><strong>Settings:</strong> <em>IDE Settings</em> > <em>Editor</em> > <em>Colors &amp; Fonts</em> > <em>General</em> > <em>Selection background</em> > <strong>Change</strong> to rgb(204, 255, 51)</p>
-            <p>By default, when you select a piece of text, only two solid colors are used to highlight the background and foreground of such text. This makes it very hard to discern the structure of the code snippet. It is comparable to trying to read code from a file opened in notepad, where the all the text is black and the complete background is white.</p>
-            <h4>Before:</h4>
-            <p><img src="/assets/images/selection_before.png" class="bad" alt=""></p>
-            <h4>After:</h4>
-            <p><img src="/assets/images/selection_after.png" class="good" alt=""></p>
-            <p class="caption">I recommend bright orange or green. We can't use yellow because it's already used when a search is conducted.</p>
-        </div>
+		<div class="tweak">
+			<h3>6. Change the "Selection background" and "Selection foreground"</h3>
+			<p class="path"><strong>Settings:</strong> <em>IDE Settings</em> > <em>Editor</em> > <em>Colors &amp; Fonts</em> > <em>General</em> > <em>Selection foreground</em> > <strong>Uncheck</strong> Foreground</p>
+			<p class="path"><strong>Settings:</strong> <em>IDE Settings</em> > <em>Editor</em> > <em>Colors &amp; Fonts</em> > <em>General</em> > <em>Selection background</em> > <strong>Change</strong> to rgb(204, 255, 51)</p>
+			<p>By default, when you select a piece of text, only two solid colors are used to highlight the background and foreground of such text. This makes it very hard to discern the structure of the code snippet. It is comparable to trying to read code from a file opened in notepad, where the all the text is black and the complete background is white.</p>
+			<h4>Before:</h4>
+			<p><img src="/assets/images/selection_before.png" class="bad" alt=""></p>
+			<h4>After:</h4>
+			<p><img src="/assets/images/selection_after.png" class="good" alt=""></p>
+			<p class="caption">I recommend bright orange or green. We can't use yellow because it's already used when a search is conducted.</p>
+		</div>
+
+		<div class="tweak">
+			<h3>7. Make a Keymap for "Show Whitespaces"</h3>
+			<p class="path"><strong>Settings:</strong> <em>IDE Settings</em> > <em>Keymap</em> > <em>Main menu</em> > <em>View</em> > <em>Show Whitespaces</em> > Add Keyboard Shortcut <strong>Ctrl+Shift+F5</strong></p>
+			<p>Whitespace characters are pretty ugly to see on the screen, that's why we need an easy way to toggle them on and off. Manually going to the menu dropdown and clicking on the "Show Whitespaces" option every time we need the feature will get old, fast. Luckily for us, there's an easier solution. All we need to do is bind this event to a keypress, so that way we have a keyboard shortcut for it!</p>
+		</div>
 
 		<p>&copy; 2011 Gregorio Ramirez</p>
 		<p>
